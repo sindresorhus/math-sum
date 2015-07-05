@@ -1,6 +1,6 @@
 {
   "name": "math-sum",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Sum numbers",
   "license": "MIT",
   "repository": "sindresorhus/math-sum",
