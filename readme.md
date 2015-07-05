@@ -24,6 +24,12 @@ mathSum(arr);
 ```
 
 
+## Related
+
+- [math-avg](https://github.com/sindresorhus/math-avg) - Get the average of numbers
+- [math-clamp](https://github.com/sindresorhus/math-clamp) - Clamp a number
+
+
 ## License
 
 MIT © [Sindre Sorhus](http://sindresorhus.com)
