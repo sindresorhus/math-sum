@@ -1,10 +1,8 @@
-'use strict';
-var test = require('ava');
-var fn = require('./');
+import test from 'ava';
+import fn from './';
 
-test(function (t) {
-	t.assert(fn(1, 2, 3, 4) === 10);
-	t.assert(fn(1000, 1000) === 2000);
-	t.assert(fn([1, 2, 3, 4]) === 10);
-	t.end();
+test(t => {
+	t.is(fn(1, 2, 3, 4), 10);
+	t.is(fn(1000, 1000), 2000);
+	t.is(fn([1, 2, 3, 4]), 10);
 });
