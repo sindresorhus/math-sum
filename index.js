@@ -1,6 +1,6 @@
 'use strict';
-module.exports = function (x) {
-	x = Array.isArray(x) ? x : arguments;
+module.exports = function (n) {
+	var x = Array.isArray(n) ? n : arguments;
 
 	var sum = 0;
 
