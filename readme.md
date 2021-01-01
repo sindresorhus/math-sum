@@ -1,4 +1,4 @@
-# math-sum [![Build Status](https://travis-ci.org/sindresorhus/math-sum.svg?branch=master)](https://travis-ci.org/sindresorhus/math-sum)
+# math-sum
 
 > Sum numbers
 
