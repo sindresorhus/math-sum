@@ -1,12 +1,10 @@
-'use strict';
-module.exports = function (x) {
-	x = Array.isArray(x) ? x : arguments;
+export default function mathSum(...arguments_) {
+	const numbers = Array.isArray(arguments_[0]) ? arguments_[0] : arguments_;
 
-	var sum = 0;
-
-	for (var i = 0; i < x.length; i++) {
-		sum += x[i];
+	let sum = 0;
+	for (const number of numbers) {
+		sum += number;
 	}
 
 	return sum;
-};
+}
