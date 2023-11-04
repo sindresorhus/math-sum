@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install math-sum
+```sh
+npm install math-sum
 ```
 
 ## Usage
@@ -22,5 +22,5 @@ mathSum([1, 2, 3, 4]);
 
 ## Related
 
-- [math-avg](https://github.com/sindresorhus/math-avg) - Get the average of numbers
+- [math-average](https://github.com/sindresorhus/math-average) - Get the average of numbers
 - [math-clamp](https://github.com/sindresorhus/math-clamp) - Clamp a number
