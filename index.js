@@ -3,8 +3,8 @@ export default function mathSum(...values) {
 
 	let sum = 0;
 
-	for (const number of numbers) {
-		sum += number;
+	for (const value of values) {
+		sum += value;
 	}
 
 	return sum;
