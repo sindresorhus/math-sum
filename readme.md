@@ -11,12 +11,12 @@ npm install math-sum
 ## Usage
 
 ```js
-import mathSum from 'math-sum';
+import sum from 'math-sum';
 
-mathSum(5, 5);
+sum(5, 5);
 //=> 10
 
-mathSum([1, 2, 3, 4]);
+sum([1, 2, 3, 4]);
 //=> 10
 ```
 
