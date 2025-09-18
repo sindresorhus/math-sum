@@ -23,7 +23,8 @@
 		"test": "xo && ava"
 	},
 	"files": [
-		"index.js"
+		"index.js",
+		"index.d.ts"
 	],
 	"keywords": [
 		"math",
@@ -32,7 +33,8 @@
 		"numbers",
 		"add",
 		"count",
-		"array"
+		"array",
+		"bigint"
 	],
 	"devDependencies": {
 		"ava": "^6.4.1",
